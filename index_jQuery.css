@@ -39,7 +39,10 @@ h3 {
   background: #ddd;
   width: 100%;
 }
+.btn{
+  font-weight: 500;
 
+}
 button {
   width: 125px;
   margin: 3px;
@@ -234,7 +237,7 @@ i{
   /* 25%{color:darkturquoise;}
   50%{color:red;} */
   from {background-color: darkturquoise;}
-  to {background-color: #dc3545;}
+  to {background-color: #00CE95;}
 }
 
 
