@@ -93,7 +93,7 @@
   .curtaindivarea .curtaindiv p,
   .safetdivarea .safetdiv p,
   .stairdivarea .stairdiv p {
-    font-size: 10px;
+    font-size: 13px;
   }
 
   /* nav  position */
@@ -111,6 +111,7 @@
   .stairdivarea .owl-nav {
     left: 10%;
     top: 80%;
+    font-size: 50px;
   }
 
   /* owl dots */
@@ -124,6 +125,7 @@
   .curtaindivarea .owl-dots,
   .safetdivarea .owl-dots,
   .stairdivarea .owl-dots {
-    height: 16px;
+    height: 20px;
+
   }
 }

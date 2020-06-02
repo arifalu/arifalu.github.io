@@ -165,6 +165,7 @@ button {
 .safetdivarea,
 .stairdivarea {
   display: none;
+  padding:10px;
 }
 
 .kitchen .kitimg img,
@@ -186,6 +187,7 @@ button {
 .curtaindivarea .owl-nav,
 .safetdivarea .owl-nav,
 .stairdivarea .owl-nav {
+  animation:colorchange 2s infinite;
   top: 80%;
   color: #dc3545;
   left: 40%;
@@ -211,3 +213,30 @@ button {
   border: 1px solid #888;
   bottom: 0px;
 }
+i{
+  animation:colorchange 2s infinite;
+  
+}
+
+
+@keyframes colorchange{
+  /* 25%{color:darkturquoise;}
+  50%{color:red;} */
+  from {color: #dc3545;}
+  to {color: darkturquoise;}
+}
+
+.finaldiv button{
+  animation:colorbut 3s ease infinite;
+}
+
+@keyframes colorbut{
+  /* 25%{color:darkturquoise;}
+  50%{color:red;} */
+  from {background-color: darkturquoise;}
+  to {background-color: #dc3545;}
+}
+
+
+
+

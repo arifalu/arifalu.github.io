@@ -117,6 +117,18 @@ jQuery(document).ready(function () {
 		},
 	});
 
+
+
+
+
+
+
+
+
+
+
+
+
 	// windowdivarea
 	$(".windowdivarea .owl-carousel").owlCarousel({
 		loop: true,
