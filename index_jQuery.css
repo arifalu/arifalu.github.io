@@ -36,8 +36,8 @@ li {
 
 h3 {
   padding: 10px;
-  background: #ddd;
-  width: 100%;
+  width: 100%;    
+  box-shadow: 1px 3px 4px #999;
 }
 .btn{
   font-weight: 500;
@@ -61,7 +61,7 @@ button {
 .licdi {
   width: 100%;
   position: relative;
-  background: #ddd;
+  background: #212529;
   padding: 10px;
 }
 
@@ -121,7 +121,9 @@ button {
 .hedding .heddiv {
   height: 100%;
   text-align: center;
+  background: #0c5460;
   padding: 15px;
+  color:aqua; 
   box-shadow: 10px 10px 5px -3px #ccc;
 }
 
@@ -237,9 +239,20 @@ i{
   /* 25%{color:darkturquoise;}
   50%{color:red;} */
   from {background-color: darkturquoise;}
-  to {background-color: #00CE95;}
+  to {background-color: rgb(10, 100, 75);}
 }
 
 
+.giff{
+  text-align: center;
+  visibility: hidden;
+}
+
+.giff img{
+  background-color: darkturquoise;
+  height: 40px;
+  width:40px;    
+  box-shadow: 1px 2px 4px #888;
+}
 
 
