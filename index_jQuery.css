@@ -243,16 +243,3 @@ i{
 }
 
 
-.giff{
-  text-align: center;
-  visibility: hidden;
-}
-
-.giff img{
-  background-color: darkturquoise;
-  height: 40px;
-  width:40px;    
-  box-shadow: 1px 2px 4px #888;
-}
-
-
