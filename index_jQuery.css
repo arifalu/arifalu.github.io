@@ -41,13 +41,18 @@ h3 {
 }
 .btn{
   font-weight: 500;
-
+  padding:6px;
+  text-align: left;
 }
+
 button {
   width: 125px;
   margin: 3px;
 }
+button i{
+  float: right;
 
+}
 .heddiv h4 {
   border-bottom: 2px solid #fff;
   padding-bottom: 10px;
@@ -231,15 +236,5 @@ i{
   to {color: darkturquoise;}
 }
 
-.finaldiv button{
-  animation:colorbut 3s ease infinite;
-}
-
-@keyframes colorbut{
-  /* 25%{color:darkturquoise;}
-  50%{color:red;} */
-  from {background-color: darkturquoise;}
-  to {background-color: rgb(10, 100, 75);}
-}
 
 
