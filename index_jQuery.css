@@ -51,6 +51,7 @@ button {
 }
 button i{
   float: right;
+  top:50%;
 
 }
 .heddiv h4 {
