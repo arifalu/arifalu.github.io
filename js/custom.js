@@ -118,17 +118,6 @@ jQuery(document).ready(function () {
 	});
 
 
-
-
-
-
-
-
-
-
-
-
-
 	// windowdivarea
 	$(".windowdivarea .owl-carousel").owlCarousel({
 		loop: true,
@@ -259,15 +248,57 @@ jQuery(document).ready(function () {
 		},
 	});
 
-
 	// kitchen div
+
+	Array.prototype.remByVal = function(val) {
+		for (var i = 0; i < this.length; i++) {
+			if (this[i] === val) {
+				this.splice(i, 1);
+				i--;
+			}
+		}
+		return this;
+	}
+	
+	// var rooms = ['hello', 'something']
+	
+	// rooms = rooms.remByVal('hello');
+
+
+	// function delCurEle(curele){
+	// 	var claName = [".kitchen",".smallkitchen",".windowdivarea",
+	// 	".boxdivarea",".doordivarea",".curtaindivarea",".safetdivarea",".stairdivarea"];
+	// 	var claName = claName.remByVal(curele);
+	// 	 return claName ;
+		
+	// };
+// var getV = delCurEle();
+
+
+	// $('.finaldiv #kitbut').click(function (e) {
+	// 	$('.kitchen').css("display", "visible").fadeToggle('slow');
+	// var abc = delCurEle(.kitchen);
+	// var abcd = delCurEle().toString();
+	// 	$("abcd").fadeOut('slow');
+	// });
+
+
+
+
 	$('.finaldiv #kitbut').click(function (e) {
 		$('.kitchen').css("display", "visible").fadeToggle('slow');
 		if (e) {
 			$('.smallkitchen,.windowdivarea,.boxdivarea,.doordivarea,\
 			.curtaindivarea,.safetdivarea,.stairdivarea').fadeOut();
 		}
+	
+
 	});
+
+
+
+
+
 	// smallkitchen div
 	$('.finaldiv #smlkitbut').click(function (e) {
 		$('.smallkitchen').css("display", "visible").fadeToggle('slow');
@@ -327,3 +358,19 @@ jQuery(document).ready(function () {
 
 
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
