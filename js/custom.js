@@ -10,7 +10,7 @@ jQuery(document).ready(function () {
 		margin: 10,
 		autoplay: true,
 		dots: false,
-		autoplayTimeout: 3500,
+		autoplayTimeout: 2500,
 		responsive: {
 			0: {
 				items: 1,
@@ -79,7 +79,6 @@ jQuery(document).ready(function () {
 		loop: true,
 		margin: 10,
 		nav: true,
-		autoplayHoverPause: true,
 		responsive: {
 			0: {
 				items: 1,
@@ -101,7 +100,6 @@ jQuery(document).ready(function () {
 		loop: true,
 		margin: 10,
 		nav: true,
-		autoplayHoverPause: true,
 		responsive: {
 			0: {
 				items: 1,
@@ -122,7 +120,6 @@ jQuery(document).ready(function () {
 		loop: true,
 		margin: 10,
 		nav: true,
-		autoplayHoverPause: true,
 		responsive: {
 			0: {
 				items: 1,
@@ -145,7 +142,6 @@ jQuery(document).ready(function () {
 		loop: true,
 		margin: 10,
 		nav: true,
-		autoplayHoverPause: true,
 		responsive: {
 			0: {
 				items: 1,
@@ -167,7 +163,6 @@ jQuery(document).ready(function () {
 		loop: true,
 		margin: 10,
 		nav: true,
-		autoplayHoverPause: true,
 		responsive: {
 			0: {
 				items: 1,
@@ -188,7 +183,6 @@ jQuery(document).ready(function () {
 		loop: true,
 		margin: 10,
 		nav: true,
-		autoplayHoverPause: true,
 		responsive: {
 			0: {
 				items: 1,
@@ -210,7 +204,6 @@ jQuery(document).ready(function () {
 		loop: true,
 		margin: 10,
 		nav: true,
-		autoplayHoverPause: true,
 		responsive: {
 			0: {
 				items: 1,
@@ -231,7 +224,6 @@ jQuery(document).ready(function () {
 		loop: true,
 		margin: 10,
 		nav: true,
-		autoplayHoverPause: true,
 		responsive: {
 			0: {
 				items: 1,
@@ -253,7 +245,6 @@ jQuery(document).ready(function () {
 		margin: 10,
 		nav: true,
 		dots: false,
-		autoplayHoverPause: true,
 		responsive: {
 			0: {
 				items: 1,
@@ -277,14 +268,7 @@ jQuery(document).ready(function () {
 			$('.smallkitchen,.windowdivarea,.boxdivarea,.doordivarea,\
 			.curtaindivarea,.safetdivarea,.stairdivarea').fadeOut();
 		}
-	
-
 	});
-
-
-
-
-
 	// smallkitchen div
 	$('.finaldiv #smlkitbut').click(function (e) {
 		$('.smallkitchen').css("display", "visible").fadeToggle('slow');
