@@ -73,6 +73,7 @@
     width: auto;
   }
 
+  .newowlthree .owl-nav,
   .kitchen .owl-nav,
   .smallkitchen .owl-nav,
   .windowdivarea .owl-nav,
@@ -106,6 +107,7 @@
     top: 60%;
   }
 
+  .newowlthree .owl-nav,
   .smallkitchen .owl-nav,
   .windowdivarea .owl-nav,
   .boxdivarea .owl-nav,
@@ -119,6 +121,7 @@
   }
 
   /* owl dots */
+  .newowlthree .owl-dots,
   .owltow .owl-dots,
   .owlthree .owl-dots,
   .kitchen .owl-dots,

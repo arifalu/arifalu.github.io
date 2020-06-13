@@ -74,6 +74,28 @@ jQuery(document).ready(function () {
 		},
 	});
 
+	// newowlthree
+	$(".newowlthree .owl-carousel").owlCarousel({
+		loop: true,
+		margin: 10,
+		nav: true,
+		autoplayHoverPause: true,
+		responsive: {
+			0: {
+				items: 1,
+			},
+			768: {
+				items: 2,
+			},
+			980: {
+				items: 4,
+			},
+			1199: {
+				items: 4,
+			},
+		},
+	});
+
 	// kitchen
 	$(".kitchen .owl-carousel").owlCarousel({
 		loop: true,
@@ -248,43 +270,7 @@ jQuery(document).ready(function () {
 		},
 	});
 
-	// kitchen div
-
-	Array.prototype.remByVal = function(val) {
-		for (var i = 0; i < this.length; i++) {
-			if (this[i] === val) {
-				this.splice(i, 1);
-				i--;
-			}
-		}
-		return this;
-	}
-	
-	// var rooms = ['hello', 'something']
-	
-	// rooms = rooms.remByVal('hello');
-
-
-	// function delCurEle(curele){
-	// 	var claName = [".kitchen",".smallkitchen",".windowdivarea",
-	// 	".boxdivarea",".doordivarea",".curtaindivarea",".safetdivarea",".stairdivarea"];
-	// 	var claName = claName.remByVal(curele);
-	// 	 return claName ;
-		
-	// };
-// var getV = delCurEle();
-
-
-	// $('.finaldiv #kitbut').click(function (e) {
-	// 	$('.kitchen').css("display", "visible").fadeToggle('slow');
-	// var abc = delCurEle(.kitchen);
-	// var abcd = delCurEle().toString();
-	// 	$("abcd").fadeOut('slow');
-	// });
-
-
-
-
+// kitchen div
 	$('.finaldiv #kitbut').click(function (e) {
 		$('.kitchen').css("display", "visible").fadeToggle('slow');
 		if (e) {

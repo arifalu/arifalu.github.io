@@ -179,6 +179,7 @@ button i{
   padding:10px;
 }
 
+.designSeat .paneldeg img,
 .kitchen .kitimg img,
 .smallkitchen .kitimg img,
 .windowdivarea .windowdiv img,
@@ -190,6 +191,7 @@ button i{
   position: relative;
 }
 
+.designSeat .owl-nav,
 .kitchen .owl-nav,
 .smallkitchen .owl-nav,
 .windowdivarea .owl-nav,
