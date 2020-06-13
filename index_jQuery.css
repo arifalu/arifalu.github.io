@@ -39,13 +39,15 @@ h3 {
   width: 100%;    
   box-shadow: 1px 3px 4px #999;
 }
+.btn{
+  font-weight: 500;
+  padding:6px;
+  text-align: left;
+}
 
 button {
   width: 125px;
   margin: 3px;
-  font-weight: 500;
-  padding:6px;
-  text-align: left;
 }
 button i{
   float: right;
