@@ -1,4 +1,4 @@
-jQuery(document).ready(function () {
+$(document).ready(function () {
 	// block image
 	$("img").bind("contextmenu", function (e) {
 		return false;
