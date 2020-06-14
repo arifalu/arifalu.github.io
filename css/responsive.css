@@ -101,7 +101,7 @@
   }
 
   /* nav  position */
-  .kitchen .owl-nav {
+  .kitchen .owl-nav,.curtaindivarea .owl-nav {
     left: 25%;
     font-size: 50px;
     top: 60%;
@@ -112,7 +112,7 @@
   .windowdivarea .owl-nav,
   .boxdivarea .owl-nav,
   .doordivarea .owl-nav,
-  .curtaindivarea .owl-nav,
+  
   .safetdivarea .owl-nav,
   .stairdivarea .owl-nav {
     left: 25%;
@@ -135,23 +135,15 @@
     height: 20px;
   
   }
-
-
-
-  
-
- 
   button{
     margin:30px;
     
   }
- 
   button.owl-prev{
     height:50px;
     width:auto;
     
   }
-
   button.owl-next{
     height:50px;
     width:auto;

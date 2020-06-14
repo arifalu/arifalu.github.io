@@ -37,7 +37,7 @@ li {
 h3 {
   padding: 10px;
   width: 100%;    
-  box-shadow: 1px 3px 4px #999;
+  border:1px solid red;
 }
 button {
   width: 125px;
@@ -70,7 +70,8 @@ button {
 }
 
 .pad60 {
-  padding: 20px 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .hederTopArea {
