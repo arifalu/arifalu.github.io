@@ -260,57 +260,6 @@ jQuery(document).ready(function () {
 			},
 		},
 	});
-
-// kitchen div
-	$('.finaldiv #kitbut').click(function (e) {
-		$('.kitchen').css("display", "visible").fadeToggle('fast');
-			$('.smallkitchen,.windowdivarea,.boxdivarea,.doordivarea,\
-			.curtaindivarea,.safetdivarea,.stairdivarea').hide();
-	});
-	// smallkitchen div
-	$('.finaldiv #smlkitbut').click(function (e) {
-		$('.smallkitchen').css("display", "visible").fadeToggle('fast');
-			$('.kitchen,.windowdivarea,.boxdivarea,.doordivarea,\
-			.curtaindivarea,.safetdivarea,.stairdivarea').hide();
-	});
-	// window div
-	$('.finaldiv #winbut').click(function (e) {
-		$('.windowdivarea').css("display", "visible").fadeToggle('fast');
-			$('.kitchen,.smallkitchen,.boxdivarea,.doordivarea,\
-			.curtaindivarea,.safetdivarea,.stairdivarea').hide();
-	});
-	// box div 
-	$('.finaldiv #boxbut').click(function (e) {
-		$('.boxdivarea').css("display", "visible").fadeToggle('fast');
-			$('.kitchen,.smallkitchen,.windowdivarea,.doordivarea,\
-			.curtaindivarea,.safetdivarea,.stairdivarea').hide();
-	});
-	// door div 
-	$('.finaldiv #doorbut').click(function (e) {
-		$('.doordivarea').css("display", "visible").fadeToggle('fast');
-			$('.kitchen,.smallkitchen,.windowdivarea,.boxdivarea,\
-			.curtaindivarea,.safetdivarea,.stairdivarea').hide();
-	});
-	// curtain div 
-	$('.finaldiv #cutbut').click(function (e) {
-		$('.curtaindivarea').css("display", "visible").fadeToggle('fast');
-			$('.kitchen,.smallkitchen,.windowdivarea,.boxdivarea,\
-			.doordivarea,.safetdivarea,.stairdivarea').hide();
-	});
-	// safle div 
-	$('.finaldiv #safetbut').click(function (e) {
-		$('.safetdivarea').css("display", "visible").fadeToggle('fast');
-			$('.kitchen,.smallkitchen,.windowdivarea,.boxdivarea,\
-			.doordivarea,.curtaindivarea,.stairdivarea').hide();
-	});
-	// stair div 
-	$('.finaldiv #stairbut').click(function (e) {
-		$('.stairdivarea').css("display", "visible").fadeToggle('fast');
-			$('.kitchen,.smallkitchen,.windowdivarea,.boxdivarea,\
-			.doordivarea,.curtaindivarea,.safetdivarea').hide();
-	});
-
-
 });
 
 

@@ -102,7 +102,7 @@
 
   /* nav  position */
   .kitchen .owl-nav {
-    left: 10%;
+    left: 25%;
     font-size: 50px;
     top: 60%;
   }
@@ -115,7 +115,7 @@
   .curtaindivarea .owl-nav,
   .safetdivarea .owl-nav,
   .stairdivarea .owl-nav {
-    left: 10%;
+    left: 25%;
     top: 80%;
     font-size: 50px;
   }
@@ -133,6 +133,16 @@
   .safetdivarea .owl-dots,
   .stairdivarea .owl-dots {
     height: 20px;
-
+  
   }
+
+
+
+  
+
+  button.owl-next{
+    height:50px;
+    width:auto;
+  }
+
 }

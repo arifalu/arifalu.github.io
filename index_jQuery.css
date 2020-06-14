@@ -39,21 +39,14 @@ h3 {
   width: 100%;    
   box-shadow: 1px 3px 4px #999;
 }
-.btn{
+button {
+  width: 125px;
+  margin: 3px;
   font-weight: 500;
   padding:6px;
   text-align: left;
 }
 
-button {
-  width: 125px;
-  margin: 3px;
-}
-button i{
-  float: right;
-  top:50%;
-
-}
 .heddiv h4 {
   border-bottom: 2px solid #fff;
   padding-bottom: 10px;
@@ -167,17 +160,6 @@ button i{
 
 /* owl-carousel nav */
 
-.kitchen,
-.smallkitchen,
-.windowdivarea,
-.boxdivarea,
-.doordivarea,
-.curtaindivarea,
-.safetdivarea,
-.stairdivarea {
-  display: none;
-  padding:10px;
-}
 
 .designSeat .paneldeg img,
 .kitchen .kitimg img,
