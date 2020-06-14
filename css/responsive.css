@@ -140,6 +140,18 @@
 
   
 
+ 
+  button{
+    margin:30px;
+    
+  }
+ 
+  button.owl-prev{
+    height:50px;
+    width:auto;
+    
+  }
+
   button.owl-next{
     height:50px;
     width:auto;
