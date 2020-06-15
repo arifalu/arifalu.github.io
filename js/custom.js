@@ -28,7 +28,7 @@ jQuery(document).ready(function () {
 	});
 
 	// owltow
-	$(".owltow .owl-carousel,.owlthree .owl-carousel").owlCarousel({
+	$(".owltow .owl-carousel").owlCarousel({
 		loop: true,
 		margin: 10,
 		autoplay: true,
@@ -50,10 +50,32 @@ jQuery(document).ready(function () {
 			},
 		},
 	});
-	$(".smallkitchen .owl-carousel,.windowdivarea .owl-carousel,\
-	.newowlthree .owl-carousel,.boxdivarea .owl-carousel,\
-	.doordivarea .owl-carousel,.safetdivarea .owl-carousel,\
-	.stairdivarea .owl-carousel").owlCarousel({
+
+	// owlthree
+	$(".owlthree .owl-carousel").owlCarousel({
+		loop: true,
+		margin: 10,
+		autoplayHoverPause: true,
+		autoplay: true,
+		autoplayTimeout: 3000,
+		responsive: {
+			0: {
+				items: 1,
+			},
+			768: {
+				items: 2,
+			},
+			980: {
+				items: 4,
+			},
+			1199: {
+				items: 4,
+			},
+		},
+	});
+
+	// newowlthree
+	$(".newowlthree .owl-carousel").owlCarousel({
 		loop: true,
 		margin: 10,
 		nav: true,
@@ -93,7 +115,89 @@ jQuery(document).ready(function () {
 			},
 		},
 	});
+	// smallkitchen
+	$(".smallkitchen .owl-carousel").owlCarousel({
+		loop: true,
+		margin: 10,
+		nav: true,
+		responsive: {
+			0: {
+				items: 1,
+			},
+			768: {
+				items: 2,
+			},
+			980: {
+				items: 3,
+			},
+			1199: {
+				items: 4,
+			},
+		},
+	});
 
+
+	// windowdivarea
+	$(".windowdivarea .owl-carousel").owlCarousel({
+		loop: true,
+		margin: 10,
+		nav: true,
+		responsive: {
+			0: {
+				items: 1,
+			},
+			768: {
+				items: 2,
+			},
+			980: {
+				items: 3,
+			},
+			1199: {
+				items: 4,
+			},
+		},
+	});
+
+	// boxdiv
+	$(".boxdivarea .owl-carousel").owlCarousel({
+		loop: true,
+		margin: 10,
+		nav: true,
+		responsive: {
+			0: {
+				items: 1,
+			},
+			768: {
+				items: 2,
+			},
+			980: {
+				items: 3,
+			},
+			1199: {
+				items: 4,
+			},
+		},
+	});
+	// doordivarea
+	$(".doordivarea .owl-carousel").owlCarousel({
+		loop: true,
+		margin: 10,
+		nav: true,
+		responsive: {
+			0: {
+				items: 1,
+			},
+			768: {
+				items: 2,
+			},
+			980: {
+				items: 3,
+			},
+			1199: {
+				items: 4,
+			},
+		},
+	});
 
 	// curtaindivarea
 	$(".curtaindivarea .owl-carousel").owlCarousel({
@@ -115,12 +219,48 @@ jQuery(document).ready(function () {
 			},
 		},
 	});
-
+	// safetdivarea
+	$(".safetdivarea .owl-carousel").owlCarousel({
+		loop: true,
+		margin: 10,
+		nav: true,
+		responsive: {
+			0: {
+				items: 1,
+			},
+			768: {
+				items: 2,
+			},
+			980: {
+				items: 3,
+			},
+			1199: {
+				items: 4,
+			},
+		},
+	});
+	// stairdivarea
+	$(".stairdivarea .owl-carousel").owlCarousel({
+		loop: true,
+		margin: 10,
+		nav: true,
+		dots: false,
+		responsive: {
+			0: {
+				items: 1,
+			},
+			768: {
+				items: 2,
+			},
+			980: {
+				items: 3,
+			},
+			1199: {
+				items: 4,
+			},
+		},
+	});
 });
-
-
-
-
 
 
 
