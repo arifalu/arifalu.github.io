@@ -51,29 +51,6 @@ jQuery(document).ready(function () {
 		},
 	});
 
-	// owlthree
-	$(".owlthree .owl-carousel").owlCarousel({
-		loop: true,
-		margin: 10,
-		autoplayHoverPause: true,
-		autoplay: true,
-		autoplayTimeout: 3000,
-		responsive: {
-			0: {
-				items: 1,
-			},
-			768: {
-				items: 2,
-			},
-			980: {
-				items: 4,
-			},
-			1199: {
-				items: 4,
-			},
-		},
-	});
-
 	// newowlthree
 	$(".newowlthree .owl-carousel").owlCarousel({
 		loop: true,
