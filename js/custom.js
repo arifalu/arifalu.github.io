@@ -113,6 +113,27 @@ jQuery(document).ready(function () {
 		},
 	});
 
+	// granitedivarea
+	$(".granitedivarea .owl-carousel").owlCarousel({
+		loop: true,
+		margin: 10,
+		nav: true,
+		dots: false,
+		responsive: {
+			0: {
+				items: 1,
+			},
+			768: {
+				items: 2,
+			},
+			980: {
+				items: 3,
+			},
+			1199: {
+				items: 4,
+			},
+		},
+	});
 
 	// windowdivarea
 	$(".windowdivarea .owl-carousel").owlCarousel({

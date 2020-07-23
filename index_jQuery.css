@@ -163,6 +163,7 @@ button {
 
 
 .designSeat .paneldeg img,
+.granitedivarea .granitediv img,
 .kitchen .kitimg img,
 .smallkitchen .kitimg img,
 .windowdivarea .windowdiv img,
@@ -175,6 +176,7 @@ button {
 }
 
 .designSeat .owl-nav,
+.granitedivarea .owl-nav,
 .kitchen .owl-nav,
 .smallkitchen .owl-nav,
 .windowdivarea .owl-nav,
@@ -193,6 +195,7 @@ button {
 
 .kitchen .kitimg p,
 .smallkitchen .kitimg p,
+.granitedivarea .granitediv p,
 .windowdivarea .windowdiv p,
 .boxdivarea .boxdiv p,
 .doordivarea .doordiv p,
