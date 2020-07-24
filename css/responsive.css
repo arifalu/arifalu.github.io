@@ -107,6 +107,7 @@
     top: 60%;
   }
 
+  .granitedivarea .owl-carousel .owl-nav,
   .newowlthree .owl-nav,
   .smallkitchen .owl-nav,
   .windowdivarea .owl-nav,
@@ -121,6 +122,8 @@
   }
 
   /* owl dots */
+
+  .granitedivarea .owl-carousel .owl-dots,
   .newowlthree .owl-dots,
   .owltow .owl-dots,
   .owlthree .owl-dots,
