@@ -1,8 +1,6 @@
 /* Normal desktop :992px. */
 @media (min-width: 992px) and (max-width: 1169px) {
-  /*.mobile-area{
-	display:block;
-}*/
+  
 }
 
 /* Tablet desktop :768px. */
@@ -55,13 +53,8 @@
   }
 
   .liccon h5 {
-    /* padding-top: 2px; */
     font-size: 13px;
   }
-  .giff{
-    visibility: visible;
-  }
-  
   .heder-manu .manu-nav li {
     padding: 0px 5px;
     font-size: 16px;
