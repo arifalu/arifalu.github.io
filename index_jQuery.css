@@ -144,6 +144,7 @@ button {
 /* owl-carousel nav */
 .designSeat .paneldeg img,
 .granitedivarea .granitediv img,
+.wallcup .wacup,
 .kitchen .kitimg img,
 .smallkitchen .kitimg img,
 .windowdivarea .windowdiv img,
@@ -156,6 +157,7 @@ button {
 }
 .designSeat .owl-nav,
 .granitedivarea .owl-nav,
+.wallcup .owl-nav,
 .kitchen .owl-nav,
 .smallkitchen .owl-nav,
 .windowdivarea .owl-nav,
@@ -171,6 +173,7 @@ button {
   font-size: xxx-large;
   position: absolute;
 }
+.wallcup .wacup p,
 .kitchen .kitimg p,
 .smallkitchen .kitimg p,
 .granitedivarea .granitediv p,

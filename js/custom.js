@@ -49,6 +49,27 @@ jQuery(document).ready(function () {
 	});
 
 	// kitchen
+	$(".wallcup .owl-carousel").owlCarousel({
+		loop: true,
+		margin: 10,
+		nav: true,
+		responsive: {
+			0: {
+				items: 1,
+			},
+			768: {
+				items: 1,
+			},
+			980: {
+				items: 1,
+			},
+			1199: {
+				items: 1,
+			},
+		},
+	});
+
+	// kitchen
 	$(".kitchen .owl-carousel").owlCarousel({
 		loop: true,
 		margin: 10,
