@@ -67,6 +67,7 @@
   }
 
   .newowlthree .owl-nav,
+  .wallcup .owl-nav,
   .kitchen .owl-nav,
   .smallkitchen .owl-nav,
   .windowdivarea .owl-nav,
@@ -81,7 +82,7 @@
   .pad60 {
     padding: 14px 0px;
   }
-
+  .wallcup .wacup p,
   .kitchen .kitimg p,
   .smallkitchen .kitimg p,
   .windowdivarea .windowdiv p,
@@ -94,7 +95,7 @@
   }
 
   /* nav  position */
-  .kitchen .owl-nav,.curtaindivarea .owl-nav {
+  .wallcup .owl-nav,.kitchen .owl-nav,.curtaindivarea .owl-nav {
     left: 25%;
     font-size: 50px;
     top: 60%;
@@ -120,6 +121,7 @@
   .newowlthree .owl-dots,
   .owltow .owl-dots,
   .owlthree .owl-dots,
+  .wallcup .owl-dots,
   .kitchen .owl-dots,
   .smallkitchen .owl-dots,
   .windowdivarea .owl-dots,
